@@ -94,18 +94,6 @@ body {
 
 .btn:hover {
   box-shadow: #FF6314 0 -6px 8px inset;
-  transform: scale(1.125);
-}
-
-.btn:active {
-  transform: scale(1.025);
-}
-
-@media (min-width: 768px) {
-  .btn {
-    font-size: 1.5rem;
-    padding: .75rem 2rem;
-  }
 }
 
 #score {
@@ -438,9 +426,9 @@ body.dark-theme #restart-btn:hover {
   }
 
   .btn {
-    width: 80%;
-    font-size: 1rem;
-    padding: 0.8rem;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
   }
 }
 
@@ -472,7 +460,7 @@ body.dark-theme #restart-btn:hover {
   }
 
   .btn {
-    width: 90%;
+    width: 100%;
     font-size: 0.95rem;
     padding: 1rem;
   }
